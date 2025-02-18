@@ -1,0 +1,191 @@
+body {
+    background-color: beige;
+    color: darkolivegreen;
+    margin: 100px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 200px;
+
+}
+
+.item {
+    font-family: "jjhayanmaeum", sans-serif;
+    font-style: normal;
+    text-align: left;
+    text-indent: 20px;
+    line-height: 1.6;
+    letter-spacing: 2px;
+    color: darkolivegreen;
+    display: flex;
+    transform: rotate(30deg);
+    font-size: 30px;
+    font-weight: bold;
+    margin: 50px;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 50px;
+    flex-basis: auto;
+}
+
+.titles {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+h1 {
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    font-family: "masonic-lodge", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-shadow: 2px 2px peru;
+    text-align: center;
+    color: saddlebrown;
+    margin-bottom: 50px;
+    font-size: 30px;
+}
+
+
+
+p {
+    font-family: "jjhayanmaeum", sans-serif;
+    font-style: normal;
+    font-size: 30px;
+    line-height: 70px;
+
+}
+
+.intext {
+    font-family: "masonic-lodge", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    text-shadow: 2px 2px peru;
+    color: saddlebrown;
+}
+
+.text-container {
+    display: block;
+    font-size: 2rem;
+    overflow: hidden;
+    font-family: "jjhayanmaeum", sans-serif;
+    font-style: normal;
+    font-size: 30px;
+    line-height: 70px;
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+    text-align: justify;
+}
+
+.word {
+    display: inline-block;
+    opacity: 1;
+    transition: transform 1s ease-out, opacity 1s ease-out;
+    position: relative;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 25px;
+    cursor: pointer;
+    border: none;
+    background-color: saddlebrown;
+    color: beige;
+    border-radius: 5px;
+    font-family: "masonic-lodge", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button:hover {
+    background-color: peru;
+}
+
+button:active {
+    font-style: italic;
+}
+
+@media screen and (max-width: 700px) {
+    .item {
+        font-size: 15px;
+        line-height: 1;
+        letter-spacing: 1px;
+        margin: 25px;
+    }
+
+    .container {
+        margin-top: 100px;
+    }
+
+
+    h1 {
+        font-weight: 200;
+        margin-bottom: 25px;
+        font-size: 15px;
+    }
+
+    .intext {
+        font-family: "masonic-lodge", sans-serif;
+        font-weight: 150;
+        font-style: normal;
+        text-shadow: 2px 2px peru;
+        color: saddlebrown;
+    }
+
+    .text-container {
+        display: block;
+        overflow: hidden;
+        font-family: "jjhayanmaeum", sans-serif;
+        font-style: normal;
+        font-size: 15px;
+        line-height: 35px;
+        margin-top: 25px;
+        margin-left: 50px;
+        margin-right: 50px;
+        text-align: justify;
+    }
+
+    button {
+        margin-top: 20px;
+        padding: 10px 20px;
+        font-size: 13px;
+        cursor: pointer;
+        border: none;
+        background-color: saddlebrown;
+        color: beige;
+        border-radius: 5px;
+        font-family: "masonic-lodge", sans-serif;
+        font-weight: 150;
+        font-style: normal;
+    }
+
+    .button-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    button:hover {
+        background-color: peru;
+    }
+
+    button:active {
+        font-style: italic;
+    }
+}
