@@ -22,7 +22,7 @@ body {
     display: flex;
     transform: rotate(30deg);
     font-size: 30px;
-    font-weight: bold;
+    font-weight: bolder;
     margin: 50px;
 }
 
